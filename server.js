@@ -5,7 +5,7 @@ const app = express();
 app.use(cors()); // Allows your extension to connect
 app.use(express.json());
 
-const VALID_KEYS = ["A9FQ-7XK3-M2X8", "Q7M9-F3KA-XZ82", "MZQ7-9XKF-3A28"];
+const VALID_KEYS = ["A9FQ-7XK3-M2X8", "Q7M9-F3KA-XZ92", "MZQ7-9XKF-3A28"];
 
 app.post('/verify', (req, res) => {
     const { key } = req.body;
